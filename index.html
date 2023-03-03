@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="outer">
+        <div class="seperate">
+            <div class="steps">
+                <div class="stepper">
+                    <div class="step-one">
+                        <div class="normal">
+                            <div class="one circle ready" data-pos="1">1</div>
+                            <div class="reminder">
+                                <span>STEP 1</span>
+                                <P>YOUR INFO</P>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-two">
+                        <div class="normal">
+                            <div class="two circle" data-pos="2">2</div>
+                            <div class="reminder">
+                                <span>STEP 2</span>
+                                <p>SELECT PLAN</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="step-three">
+                        <div class="normal">
+                            <div class="three circle" data-pos="3">3</div>
+                            <div class="reminder">
+                                <span>STEP 3</span>
+                                <p>ADD-ONS</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="step-four">
+                        <div class="normal">
+                            <div class="four circle" data-pos="4">4</div>
+                            <div class="reminder">
+                                <span>STEP 4</span>
+                                <p>SUMMARY</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="mobile-circle">
+                    <div class="oneC mobile">1</div>
+                    <div class="two mobile">2</div>
+                    <div class="three mobile">3</div>
+                    <div class="four mobile">4</div>
+                </div>
+            </div>
+
+            <div class="info">
+                <div class="many">
+                    <div class="subhead">
+                        <h1>Personal Info</h1>
+                        <p>Please provide your name, email address and phone number.</p>
+                    </div>
+                    <form id="forms">
+                        <div class="name-section">
+                            <div class="area">
+                                <p>Name</p>
+                                <span class="field1">The field is required</span>
+                            </div>
+                        </div>
+                        <input type="text" id="name" placeholder="e.g Stephen king">
+                        <div class="email-section">
+                            <div class="area">
+                                <p>Email Address</p>
+                                <span class="field2">The field is required</span>
+                            </div>
+                        </div>
+                        <input type="email" id="email" placeholder="e.g stephenking@lorem.com">
+                        <div class="phone-no">
+                            <div class="area">
+                                <p>Phone Number</p>
+                                <span class="field">The field is required</span>
+                            </div>
+
+                        </div>
+                        <input type="tel" id="telephone" placeholder="08175632211">
+
+
+
+                    </form>
+                    <div class="box2">
+                        <input type="submit" value="Next Step" class="next-first">
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+            <div class="info-two">
+                <div class="many2" id="many">
+                    <div class="subhead2">
+                        <h1>Select your plan</h1>
+                        <p>You have the option of monthly or yearly billing.</p>
+                    </div>
+                    <div class="long">
+                        <div class="arcade same">
+                            <div class="img">
+                                <img src="./images/icon-arcade.svg" alt="">
+                            </div>
+                            <div class="text">
+                                <p class="ade">Arcade</p>
+                                <span class="nine">$9/mo</span>
+                                <span class="free"></span>
+                                <!-- <p class="free">2 months free</p> -->
+                            </div>
+
+                        </div>
+                        <div class="advance same">
+                            <div class="img">
+                                <img src="./images/icon-advanced.svg" alt="">
+                            </div>
+                            <div class="text">
+                                <p class="adv">Advanced</p>
+                                <span class="twelve">$12/mo</span>
+                                <span class="free2"></span>
+                            </div>
+                        </div>
+                        <div class="pro same">
+                            <div class="img">
+                                <img src="./images/icon-pro.svg" alt="">
+                            </div>
+                            <div class="text">
+                                <p class="pr">Pro</p>
+                                <span class="fifteen">$15/mo</span>
+                                <span class="free3"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="selection">
+
+                        <div class="times">
+                            <div class="month">Monthly</div>
+                            <input type="checkbox" id="checker" class="checkbox">
+                            <label for="checker" class="label">
+                                <div class="small"></div>
+                            </label>
+                            <div class="year">Yearly</div>
+                        </div>
+
+                    </div>
+                    <div class="progress">
+                        <div class="moving-back">
+                            <li class="back"><a href="#">Go Back</a></li>
+                        </div>
+                        <div class="next">
+                            <li class="nexts"><a href="#">Next Step</a></li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info-three">
+                <div class="many3">
+                    <div class="subhead3">
+                        <h1>Picks add-ons</h1>
+                        <p>Add-ons help you enhance your gaming exprience.</p>
+                    </div>
+                    <div class="straight">
+                        <div class="access">
+                            <div class="inner">
+                                <div class="check">
+                                    <input type="checkbox" class="mark checks">
+                                </div>
+                                <div class="message">
+                                    <p>Online service </p>
+                                    <span>Access to multiplayer games</span>
+                                </div>
+                                <span class="dollar1">+$1/mo</span>
+                            </div>
+                        </div>
+                        <div class="storage">
+                            <div class="inner">
+                                <div class="check">
+                                    <input type="checkbox" class="mark2 checks">
+                                </div>
+                                <div class="message">
+                                    <p>Larger storage</p>
+                                    <span>Extra 1TB of cloud save</span>
+                                </div>
+                                <span class="dollar2">+$2/mo</span>
+                            </div>
+                        </div>
+
+                        <div class="profile">
+                            <div class="inner">
+                                <div class="check">
+                                    <input type="checkbox" class="mark3 checks">
+                                </div>
+                                <div class="message">
+                                    <p>Customizable profile</p>
+                                    <span>Custom theme on your profile</span>
+                                </div>
+                                <span class="dollar3">+$2/mo</span>
+                            </div>
+                        </div>
+                        <div class="hidden">
+                            <div class="feelings">
+                                <input type="number" class="actualValueOne" id="actually" value="1" readonly>
+                                <input type="number" class="actualValueTwo" id="actually" value="2" readonly>
+                                <input type="number" class="actualValueThree" id="actually" value="2" readonly>
+                            </div>
+                            <div class="feelings2">
+                                <input type="number" class="cloneOne" id="actually" value="0" readonly>
+                                <input type="number" class="cloneTwo" id="actually" value="0" readonly>
+                                <input type="number" class="cloneThree" id="actually" value="0" readonly>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="longer">
+                        <div class="back">
+                            <li class="back2"><a href="#">Go Back</a></li>
+                        </div>
+                        <div class="next3">
+                            <li><a href="#">Next Step</a></li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info-four">
+                <div class="many4">
+                    <div class="subhead4">
+                        <h1>Finishing up</h1>
+                        <p>Double-check everything looks OK before confirming.</p>
+                    </div>
+                    <div class="potrait">
+                        <div class="arc-monthly">
+                            <div class="inner">
+                                <div class="changes">
+                                    <div class="two-select">
+                                        <p class="changing"></p>
+                                        <p class="selection-new">(Monthly)</p>
+                                    </div>
+
+                                    <a href="#" class="return">Change</a>
+                                </div>
+                                <div class="money">
+                                    <p class="amount">+$9/mo</p>
+                                    <!-- <p>/mo</p> -->
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="online-larger">
+                            <div class="inner">
+                                <div class="service">
+                                    <div class="first-lane">
+                                        <div class="mrOnline">
+                                            <p class="no1"></p>
+
+                                        </div>
+                                        <p class="price1"></p>
+
+                                    </div>
+
+                                    <div class="second-lane">
+                                        <div class="mrLarger">
+                                            <p class="no2"></p>
+                                        </div>
+                                        <p class="price2"></p>
+
+                                        <div></div>
+
+                                    </div>
+                                    <div class="third-lane">
+                                        <div class="mrCustomize">
+                                            <p class="no3"></p>
+
+                                        </div>
+                                        <p class="price3"></p>
+
+
+                                    </div>
+                                </div>
+                                <!-- <div class="money2"></div> -->
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="hiddenFact">
+                        <input type="number" class="numOne" readonly value="0">
+                        <input type="number" class="numTwo" readonly value="0">
+                        <input type="number" class="numThree" value="0" readonly>
+                    </div>
+                    <div class="total">
+                        <div class="inner">
+                            <div class="per">
+                                <p class="total-package">Total(per month)</p>
+                            </div>
+                            <div class="moneyB">
+                                <p class="plus">+</p>
+                                <p class="dollarType"></p>
+                                <p class="type">/mo</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="longer2">
+                        <div class="back">
+                            <li class="back3"><a href="#">Go Back</a></li>
+                        </div>
+                        <div class="finish">
+                            <li><a href="#">Confirm</a></li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="info-five">
+                <div class="many5">
+                    <div class="container">
+                        <div class="img">
+                            <img src="./images/icon-thank-you.svg" alt="">
+                        </div>
+                        <div class="textable">
+                            <h1>Thank you!</h1>
+                            <span>Thanks for confirming your subscription! We hope you have fun using our platform.
+                                If
+                                you ever need support, please feel free to email us at
+                                support@loremgaming.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>

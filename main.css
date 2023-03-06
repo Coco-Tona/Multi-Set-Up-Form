@@ -2934,7 +2934,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    box-shadow: 1px 1px 10px 1px black;
     /* display: none; */
 }
 .outer .seperate .info .many{
@@ -2947,7 +2948,7 @@ body{
 display: flex;
 flex-direction: column;
 align-items: center;
-    margin-top: 1rem;
+    margin-top: 0.1rem;
 }
 .outer .seperate .info .many .subhead{
     margin: 1.3rem;
@@ -2980,19 +2981,19 @@ width: 19rem;
     border: 0.5px solid gray;
 }
 .outer .seperate .info .many  .box2{
-    /* position: absolute; */
+    position: absolute;
     /* margin: 0; */
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 4rem;
+    margin-top: 38rem;
     background: white;
     width: 26rem;
     /* z-index: 100; */
     /* position: absolute; */
     /* margin-top: 32rem; */
    
-    height: 8rem;
+    height: 5rem;
 }
 .outer .seperate .info .many .box2 .next-first{
     width: 35%;
@@ -3090,7 +3091,8 @@ width: 19rem;
     justify-content: center;
     display: none;
     z-index: 100;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    box-shadow: 1px 1px 10px 1px black;
 }
 .outer .seperate .info-two .many2{
     width: 19rem;
@@ -3297,7 +3299,9 @@ gap: 5rem;
     align-items: center;
     justify-content: center;
     display: none;
+    box-shadow: 1px 1px 10px 1px black;
     /* z-index: 100; */
+    border: none;
 }
 .outer .seperate .info-three .many3{
     width: 21rem;
@@ -3386,9 +3390,14 @@ align-items: center;
     z-index: 100;
 gap: 3rem;
     /* position: absolute; */
-    margin-top: 36rem;
+    margin-top: 38rem;
     height: 5rem;
     /* margin: 0; */
+}
+
+.outer .seperate .info-three .many3 .straight .hidden{
+    width: 17rem;
+    background: red;
 }
 .outer .seperate .info-four{
     position: absolute;
@@ -3402,7 +3411,8 @@ gap: 3rem;
     align-items: center;
     justify-content: center;
     display: none;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    box-shadow: 1px 1px 10px 1px black;
 }
 .outer .seperate .info-four .many4{
     width: 21rem;
@@ -3414,6 +3424,7 @@ gap: 3rem;
     align-items: center;
     margin-top: -0rem;
     margin: 0.7rem;
+    
 }
 .outer .seperate .info-four .many4 .subhead4{
     margin: 1.3rem;
@@ -3730,6 +3741,7 @@ gap: 3rem;
     align-items: center;
     justify-content: center;
     display: none;
+    box-shadow: 1px 1px 10px 1px black;
 }
 .outer .seperate .info-five .many5{
     margin: 1rem;
@@ -3747,6 +3759,9 @@ align-items: center;
 width: 25rem;
 /* background: orange; */
 
+}
+.outer .seperate .info-five .many5 .container {
+    width: 19rem;
 }
 .outer .seperate .info-five .many5 .container .textable{
    color: hsl(213, 96%, 18%);
@@ -3858,6 +3873,8 @@ body{
     align-items: center;
     justify-content: center;
     /* display: none; */
+    border: none;
+    box-shadow: 1px 1px 10px 1px black;
 }
 .outer .seperate .info .many{
     position: absolute;
@@ -3902,17 +3919,17 @@ width: 19rem;
     border: 0.5px solid gray;
 }
 .outer .seperate .info .many .box2{
-    /* position: absolute; */
+    position: absolute;
     /* margin: 0; */
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 9rem;
-    background: red;
+    /* margin-top: 9rem; */
+    /* background: red;          */
     width: 10rem;
     z-index: 100;
     /* position: absolute; */
-    /* margin-top: 32rem; */
+    margin-top: 38rem;
     height: 1rem;
 }
 .outer .seperate .info .many .box2 .next-first{
@@ -4010,6 +4027,8 @@ width: 19rem;
     justify-content: center;
     display: none;
     z-index: 100;
+    box-shadow: 1px 1px 10px 1px black;
+    border: none;
 }
 .outer .seperate .info-two .many2{
     width: 19rem;
@@ -4031,7 +4050,7 @@ align-items: center;
   color: hsl(213, 96%, 18%);  
 }
 .outer .seperate .info-two .many2 .subhead2 p{
-    width: 20rem;
+    width: 17rem;
     /* background: orange; */
     font-size: 1.1rem;
 }
@@ -4215,6 +4234,8 @@ gap: 5rem;
     align-items: center;
     justify-content: center;
     display: none;
+    box-shadow: 1px 1px 10px 1px black;
+    border: none;
     /* z-index: 100; */
 }
 .outer .seperate .info-three .many3{
@@ -4322,17 +4343,19 @@ gap: 3rem;
     align-items: center;
     justify-content: center;
     display: none;
+    box-shadow: 1px 1px 10px 1px black;
+    border: none;
 }
 .outer .seperate .info-four .many4{
     width: 19rem;
-    background: white;
+    /* background: red; */
     height: 20rem;
     border-radius: 0.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: -0rem;
-    /* margin: 1rem; */
+    margin: 1rem;
 }
 .outer .seperate .info-four .many4 .subhead4{
     margin: 1.3rem;
@@ -4375,7 +4398,7 @@ gap: 3rem;
     display: flex;
     /* margin: 0rem; */
     /* background: firebrick; */
-    width: 20rem;
+    width: 19rem;
     height: 13rem;
     flex-direction: column;
     border-radius: 0.3rem;
@@ -4649,6 +4672,8 @@ gap: 3rem;
     align-items: center;
     justify-content: center;
     display: none;
+    box-shadow: 1px 1px 10px 1px black;
+    border: none;
 }
 .outer .seperate .info-five .many5{
     margin: 1rem;
@@ -4666,6 +4691,9 @@ align-items: center;
 width: 25rem;
 /* background: orange; */
 
+}
+.outer .seperate .info-five .many5 .container {
+    width: 20rem;
 }
 .outer .seperate .info-five .many5 .container .textable{
    color: hsl(213, 96%, 18%);
